@@ -4,13 +4,16 @@ Please use this repository to share R functions that you write which may be usef
 
 # Functions list by source file
 
+*polygons.R*
+
+- `get_clip_rect`: create a rectangle of given size around a point, can be used with both projected and long/lat coordinates
+- `poly_rect`: shortcut to create a rectangle Polygon given four numbers (min and max along x and y) 
+- `rm_small_polys`: removes small polygons and polygons 'slivers' from a SpatialPolygons object 
+
 *raster.R*
 
 - `inv_rotate`: 'inverse' of `rotate` from `raster` package, takes a raster with longitudes in (-180, 180), converts it to (0, 360) 
 
-*polygons.R*
-
-- `rm_small_polys`: removes small polygons and polygons 'slivers' from a SpatialPolygons object 
 
 
 
