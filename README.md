@@ -4,6 +4,10 @@ Please use this repository to share R functions that you write which may be usef
 
 # Functions list by source file
 
+*lists.R*
+
+- `nest_vector`: create a list from a vector based on the position of headers
+
 *polygons.R*
 
 - `get_clip_rect`: create a rectangle of given size around a point, can be used with both projected and long/lat coordinates
